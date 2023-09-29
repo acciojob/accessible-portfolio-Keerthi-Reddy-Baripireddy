@@ -1,16 +1,41 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accessible Portfolio</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+    <h1 role="heading">My Portfolio</h1>
+    
+    <nav role="navigation">
+        <ul role="list">
+            <li role="listitem"><a href="#section1">Section 1 <p>lorem5
+			</p></a></li>
+            <li role="listitem"><a href="#section2">Section 2 <p>lorem5</a></li>
+            <li role="listitem"><a href="#section3">Section 3 <p>lorem5</a></li>
+        </ul>
+    </nav>
 
+    <img src="https://t3.ftcdn.net/jpg/00/28/78/32/360_F_28783272_McJzgAYLurO4wEnWAfwDDq9a9RpXRofe.jpg" alt="Portfolio Image" role="img" aria-label="Portfolio Image">
+
+    <p>This is my portfolio, showcasing my work and projects.</p>
+
+    <section id="section1">
+		<p>My data</p>
+        <h2 role="heading">Project 1</h2>
+        <p>Project 1 description...</p>
+    </section>
+
+    <section id="section2">
+        <h2 role="heading">Project 2</h2>
+        <p>Project 2 description...</p>
+    </section>
+
+    <section id="section3">
+        <h2 role="heading">Project 3</h2>
+        <p>Project 3 description...</p>
+    </section>
 </body>
-
 </html>
